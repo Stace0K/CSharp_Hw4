@@ -3,7 +3,7 @@
 int Number(string arg)
 {
     Console.Write(arg);
-    string value = Console.ReadLine();
+    string value = Console.ReadLine()!;
     int result = Convert.ToInt32(value);
     return result;
 }
